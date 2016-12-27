@@ -2,8 +2,8 @@
 // Created by Jake Johnson on 12/23/16.
 //
 
-#ifndef SDL_BASIC_PARTICLE_H
-#define SDL_BASIC_PARTICLE_H
+#ifndef PARTICLEFIRE_PARTICLE_H
+#define PARTICLEFIRE_PARTICLE_H
 
 namespace xyclos {
 
@@ -28,4 +28,4 @@ namespace xyclos {
 }
 
 
-#endif //SDL_BASIC_PARTICLE_H
+#endif //PARTICLEFIRE__PARTICLE_H

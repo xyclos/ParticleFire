@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SDL_Basic
+# Target rules for targets named ParticleFire
 
 # Build rule for target.
-SDL_Basic: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SDL_Basic
-.PHONY : SDL_Basic
+ParticleFire: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ParticleFire
+.PHONY : ParticleFire
 
 # fast build rule for target.
-SDL_Basic/fast:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/build
-.PHONY : SDL_Basic/fast
+ParticleFire/fast:
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/build
+.PHONY : ParticleFire/fast
 
 src/Particle.o: src/Particle.cpp.o
 
@@ -129,7 +129,7 @@ src/Particle.o: src/Particle.cpp.o
 
 # target to build an object file
 src/Particle.cpp.o:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Particle.cpp.o
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Particle.cpp.o
 .PHONY : src/Particle.cpp.o
 
 src/Particle.i: src/Particle.cpp.i
@@ -138,7 +138,7 @@ src/Particle.i: src/Particle.cpp.i
 
 # target to preprocess a source file
 src/Particle.cpp.i:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Particle.cpp.i
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Particle.cpp.i
 .PHONY : src/Particle.cpp.i
 
 src/Particle.s: src/Particle.cpp.s
@@ -147,7 +147,7 @@ src/Particle.s: src/Particle.cpp.s
 
 # target to generate assembly for a file
 src/Particle.cpp.s:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Particle.cpp.s
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Particle.cpp.s
 .PHONY : src/Particle.cpp.s
 
 src/Screen.o: src/Screen.cpp.o
@@ -156,7 +156,7 @@ src/Screen.o: src/Screen.cpp.o
 
 # target to build an object file
 src/Screen.cpp.o:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Screen.cpp.o
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Screen.cpp.o
 .PHONY : src/Screen.cpp.o
 
 src/Screen.i: src/Screen.cpp.i
@@ -165,7 +165,7 @@ src/Screen.i: src/Screen.cpp.i
 
 # target to preprocess a source file
 src/Screen.cpp.i:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Screen.cpp.i
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Screen.cpp.i
 .PHONY : src/Screen.cpp.i
 
 src/Screen.s: src/Screen.cpp.s
@@ -174,7 +174,7 @@ src/Screen.s: src/Screen.cpp.s
 
 # target to generate assembly for a file
 src/Screen.cpp.s:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Screen.cpp.s
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Screen.cpp.s
 .PHONY : src/Screen.cpp.s
 
 src/Swarm.o: src/Swarm.cpp.o
@@ -183,7 +183,7 @@ src/Swarm.o: src/Swarm.cpp.o
 
 # target to build an object file
 src/Swarm.cpp.o:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Swarm.cpp.o
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Swarm.cpp.o
 .PHONY : src/Swarm.cpp.o
 
 src/Swarm.i: src/Swarm.cpp.i
@@ -192,7 +192,7 @@ src/Swarm.i: src/Swarm.cpp.i
 
 # target to preprocess a source file
 src/Swarm.cpp.i:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Swarm.cpp.i
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Swarm.cpp.i
 .PHONY : src/Swarm.cpp.i
 
 src/Swarm.s: src/Swarm.cpp.s
@@ -201,7 +201,7 @@ src/Swarm.s: src/Swarm.cpp.s
 
 # target to generate assembly for a file
 src/Swarm.cpp.s:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/Swarm.cpp.s
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/Swarm.cpp.s
 .PHONY : src/Swarm.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -210,7 +210,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -219,7 +219,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -228,7 +228,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -239,7 +239,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SDL_Basic"
+	@echo "... ParticleFire"
 	@echo "... src/Particle.o"
 	@echo "... src/Particle.i"
 	@echo "... src/Particle.s"

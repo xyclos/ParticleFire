@@ -2,8 +2,8 @@
 // Created by Jake Johnson on 12/23/16.
 //
 
-#ifndef SDL_BASIC_SCREEN_H
-#define SDL_BASIC_SCREEN_H
+#ifndef PARTICLEFIRE__SCREEN_H
+#define PARTICLEFIRE__SCREEN_H
 
 #include <SDL.h>
 
@@ -37,4 +37,4 @@ namespace xyclos {
 } /* namespace xyclos */
 
 
-#endif //SDL_BASIC_SCREEN_H
+#endif //PARTICLEFIRE__SCREEN_H

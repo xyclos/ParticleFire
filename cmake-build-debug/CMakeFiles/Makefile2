@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/jakejohnson/Development/learn_cpp/ParticleFire
 CMAKE_BINARY_DIR = /Users/jakejohnson/Development/learn_cpp/ParticleFire/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/SDL_Basic.dir
+# Target rules for target CMakeFiles/ParticleFire.dir
 
 # All Build rule for target.
-CMakeFiles/SDL_Basic.dir/all:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/depend
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jakejohnson/Development/learn_cpp/ParticleFire/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target SDL_Basic"
-.PHONY : CMakeFiles/SDL_Basic.dir/all
+CMakeFiles/ParticleFire.dir/all:
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/depend
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jakejohnson/Development/learn_cpp/ParticleFire/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ParticleFire"
+.PHONY : CMakeFiles/ParticleFire.dir/all
 
 # Include target in all.
-all: CMakeFiles/SDL_Basic.dir/all
+all: CMakeFiles/ParticleFire.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SDL_Basic.dir/rule: cmake_check_build_system
+CMakeFiles/ParticleFire.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jakejohnson/Development/learn_cpp/ParticleFire/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SDL_Basic.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ParticleFire.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jakejohnson/Development/learn_cpp/ParticleFire/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/SDL_Basic.dir/rule
+.PHONY : CMakeFiles/ParticleFire.dir/rule
 
 # Convenience name for target.
-SDL_Basic: CMakeFiles/SDL_Basic.dir/rule
+ParticleFire: CMakeFiles/ParticleFire.dir/rule
 
-.PHONY : SDL_Basic
-
-# clean rule for target.
-CMakeFiles/SDL_Basic.dir/clean:
-	$(MAKE) -f CMakeFiles/SDL_Basic.dir/build.make CMakeFiles/SDL_Basic.dir/clean
-.PHONY : CMakeFiles/SDL_Basic.dir/clean
+.PHONY : ParticleFire
 
 # clean rule for target.
-clean: CMakeFiles/SDL_Basic.dir/clean
+CMakeFiles/ParticleFire.dir/clean:
+	$(MAKE) -f CMakeFiles/ParticleFire.dir/build.make CMakeFiles/ParticleFire.dir/clean
+.PHONY : CMakeFiles/ParticleFire.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ParticleFire.dir/clean
 
 .PHONY : clean
 
